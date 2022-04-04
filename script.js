@@ -39,11 +39,11 @@ function cervejapp(duracao){
 
 function refrigerantepp(duracao){
     if(duracao >= 4){
-        return 700
+        return 600
     }
 
     else{
-        return 500
+        return 400
     }
 }
 
