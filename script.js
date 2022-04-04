@@ -1,10 +1,3 @@
-// carne - 400gr por pessoa + 6horas 650gr
-// cerveja -1200ml p/ pessoas + 6horas 2000ml
-// refrigerante/agua - 1000ml por pessoa + 6horas 1500ml
-// criança vale por 0,5
-
-  
-
 function calcular(){  
 var nome = document.getElementById("nome").value
 var adulto = document.getElementById("adulto").value
@@ -26,27 +19,27 @@ resultado.innerHTML += `<li>${Math.ceil(qtdbebidas / 1000)} litros de refrigeran
 
 function carnepp(duracao){
     if(duracao >= 4){
-        return 0.650
+        return 0.500
     }
 
     else{
-        return 0.450
+        return 0.300
     }
 }
 
 function cervejapp(duracao){
     if(duracao >= 5){
-        return 2800
+        return 2300
     }
 
     else{
-        return 1800
+        return 1300
     }
 }
 
 function refrigerantepp(duracao){
     if(duracao >= 4){
-        return 1000
+        return 700
     }
 
     else{
